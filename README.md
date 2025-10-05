@@ -1,11 +1,11 @@
 # ENG
-## 🤖 YA-DA - Investment Advisory Assistant
+## 🤖 YA-DA - Investment Specialist Assistant
 
 ### 🧠 About
 
-YA-DA is an LLM-based portfolio management and investment advisory assistant designed for modern investors.  
-It interacts with users in natural language, analyzes your portfolio, evaluates your risk level, and provides personalized investment strategies.  
-> ⚠️ **Note:** This is a portfolio project.
+YA-DA is an LLM-powered investment **specialist assistant** designed for investors.  
+It interacts with users in natural language, analyzes portfolios, evaluates risk levels, and provides insights to support informed investment decisions.  
+> ⚠️ **Note:** This is a portfolio project. It does not provide real investment advice.
 
 ### 🚀 Features
 
@@ -65,9 +65,9 @@ It interacts with users in natural language, analyzes your portfolio, evaluates 
 
 ### 🧠 Hakkında
 
-YA-DA, modern yatırımcılar için tasarlanmış LLM tabanlı bir portföy yönetim ve yatırım danışmanlığı asistanıdır.
+YA-DA, yatırımcılar için tasarlanmış LLM tabanlı bir portföy yönetim ve yatırım danışmanlığı asistanıdır.
 Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, risk seviyenizi değerlendirir ve size özel yatırım stratejileri sunar.
-> ⚠️ **Not:** Bu bir portföy projesidir
+> ⚠️ **Not:** Bu bir portföy projesidir. Gerçek yatırım tavsiyesi sunmaz!
 
 
 ### 🚀 Özellikler
