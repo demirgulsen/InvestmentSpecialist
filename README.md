@@ -52,9 +52,9 @@ Streamlit UI ──> LangGraph Agent ──> ChatGroq LLM
 - 🔍 DDGS — Web üzerinden güncel bilgi arama
 
 ## 🧑‍💻 Geliştirici
-👋 Gülşen Demir — Jr. Data Scientist & AI Developer
+👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
 
-## 📫 İletişim: 
-LinkedIn : [https://linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)
-GitHub : [https://github.com/demirgulsen/]
-Kaggle : [https://www.kaggle.com/gulsendemir]
+## **📫 İletişim:**
+- LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
+- GitHub: [github.com/demirgulsen](https://github.com/demirgulsen/)  
+- Kaggle: [kaggle.com/gulsendemir](https://www.kaggle.com/gulsendemir)  
