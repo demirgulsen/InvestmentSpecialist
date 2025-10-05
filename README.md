@@ -1,6 +1,5 @@
 # 🤖 YA-DA  - Yatırım Danışmanı Asistanı
 
----
 
 ## 🧠 Hakkında
 
