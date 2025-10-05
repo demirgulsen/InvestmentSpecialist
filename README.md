@@ -24,18 +24,11 @@ Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, r
 
 ## 🧩 Mimarisi
 
-**Streamlit UI   ──>   LangGraph Agent   ──>   ChatGroq LLM**
-|--------------|------|----------------|------|-------------|
-|      │       |      │                │      |             │
-│      ▼              │    ▼                  │       ▼
-│   Grafikler &       │   State & Memory      │   API / Tools
-   Kullanıcı Girişi       Yönetimi              (Finnhub, CoinGecko, DDGS)
-
 | Teknoloji | Görev |
 |-----------|-------|
-| 🌐 Streamlit UI  ──> | Grafikler & Kullanıcı Girişi |
-| 🤖 LangGraph Agent  ──> | State & Memory Yönetimi |
-| ⚡ ChatGroq LLM  ──>  | API / Tools (Finnhub, CoinGecko, DDGS) |
+| 🌐 **Streamlit UI**  ➡️| Grafikler & Kullanıcı Girişi |
+| 🤖 **LangGraph Agent** ➡️| State & Memory Yönetimi |
+| ⚡ **ChatGroq LLM**  ➡️| API / Tools (Finnhub, CoinGecko, DDGS) |
 
 
 ## 🧰 Kullanılan Teknolojiler
