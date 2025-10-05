@@ -48,10 +48,28 @@ It interacts with users in natural language, analyzes portfolios, evaluates risk
 - ⚡ ChatGroq — High-speed LLM
 - 🔍 DDGS — Web-based live information retrieval
 
+**Note:**
+Initially, I worked with the 'gemma2-9b-it' model. This model was particularly valuable due to its fast results and for understanding prompt design and tool logic. However, I used 'openai/gpt-oss-120b' for this project as I had reached my usage quota.
+
+Other models that can be used in this project:
+- gemma2-9b-it
+- llama-3.3-70b-versatile
+- llama-3.1-8b-instant
+- meta-llama/llama-guard-4-12b
+- openai/gpt-oss-120b
+- openai/gpt-oss-20b
+- whisper-large-v3
+
+Notes:
+- Since this project uses the LangChain + ChatGroq structure, you can choose any model supported by your Groq account.
+- You can also experiment with other supported models from your own account; most will work fine.
+- Alternatively, HuggingFace Groq models can be used by modifying the llm function accordingly.
+
 ### 🧑‍💻 Developer
 👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
 
 ### 📫 Contact
+- Youtube: 
 - LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
 - GitHub: [github.com/demirgulsen](https://github.com/demirgulsen/)  
 - Kaggle: [kaggle.com/gulsendemir](https://www.kaggle.com/gulsendemir)
@@ -113,10 +131,29 @@ Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, r
 - ⚡ ChatGroq — Hızlı LLM 
 - 🔍 DDGS — Web üzerinden güncel bilgi arama
 
+**Not:**
+Projede başlangıçta 'gemma2-9b-it' modeli ile çalıştım.Bu model, sonuçları hızlı getirmesi ve prompt ile tool mantığını anlamak açısından oldukça değerliydi fakat istek kotamı doldurduğum için 'openai/gpt-oss-120b' modelini kullandım. 
+
+Ayrıca projede kullanılabilecek diğer modeller:
+- gemma2-9b-it,
+- llama-3.3-70b-versatile,
+- llama-3.1-8b-instant
+- meta-llama/llama-guard-4-12b,
+- openai/gpt-oss-120b,
+- openai/gpt-oss-20b,
+- whisper-large-v3
+
+Notlar:
+- LangChain + ChatGroq yapısını kullandığım için Groq hesabınızda desteklenen modellerden herhangi birini seçebilirsiniz.
+- Kendi hesabınız üzerinden desteklenen farklı modelleri deneyebilirsiniz; çoğu işinizi görecektir.
+- Alternatif olarak, HuggingFace üzerindeki Groq modellerini llm fonksiyonunda değişiklik yaparak kullanabilirsiniz.
+
+
 ### 🧑‍💻 Geliştirici
 👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
 
 ### **📫 İletişim:**
+- Youtube: 
 - LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
 - GitHub: [github.com/demirgulsen](https://github.com/demirgulsen/)  
 - Kaggle: [kaggle.com/gulsendemir](https://www.kaggle.com/gulsendemir)  
