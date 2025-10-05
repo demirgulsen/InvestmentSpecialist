@@ -60,7 +60,7 @@ Other models that can be used in this project:
 - openai/gpt-oss-20b
 - whisper-large-v3
 
-Notes:
+Additionally:
 - Since this project uses the LangChain + ChatGroq structure, you can choose any model supported by your Groq account.
 - You can also experiment with other supported models from your own account; most will work fine.
 - Alternatively, HuggingFace Groq models can be used by modifying the llm function accordingly.
@@ -143,7 +143,7 @@ Ayrıca projede kullanılabilecek diğer modeller:
 - openai/gpt-oss-20b,
 - whisper-large-v3
 
-Notlar:
+Ek olarak:
 - LangChain + ChatGroq yapısını kullandığım için Groq hesabınızda desteklenen modellerden herhangi birini seçebilirsiniz.
 - Kendi hesabınız üzerinden desteklenen farklı modelleri deneyebilirsiniz; çoğu işinizi görecektir.
 - Alternatif olarak, HuggingFace üzerindeki Groq modellerini llm fonksiyonunda değişiklik yaparak kullanabilirsiniz.
