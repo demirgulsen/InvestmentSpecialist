@@ -15,11 +15,11 @@ def format_stock_data_for_agent(ticker: str) -> str:
     if "error" in data:
         return f"{ticker} için hata: {data['error']}"
 
-    return f"""
+     return f"""
         {ticker.upper()} Hisse Senedi: \n
-        • Güncel Fiyat: ${data['c']:.2f} \n
-        • Değişim: ${data['d']:.2f} ({data['dp']:.2f}%) \n
-        • Açılış Fiyatı: ${data['o']:.2f} \n
-        • Gün İçi En Yüksek: ${data['h']:.2f} \n
-        • Gün İçi En Düşük: ${data['l']:.2f} \n
+        • Güncel Fiyat: ${data['current_price']:.2f} \n
+        • Değişim: ${data['change']:.2f} ({data['change_percent']:.2f}%) \n
+        • Açılış Fiyatı: ${data['open']:.2f} \n
+        • Gün İçi En Yüksek: ${data['high']:.2f} \n
+        • Gün İçi En Düşük: ${data['low']:.2f} \n
     """.strip()
