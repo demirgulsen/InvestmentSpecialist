@@ -1,14 +1,76 @@
-# 🤖 YA-DA  - Yatırım Danışmanı Asistanı
+# ENG
+## 🤖 YA-DA - Investment Advisory Assistant
+
+### 🧠 About
+
+YA-DA is an LLM-based portfolio management and investment advisory assistant designed for modern investors.  
+It interacts with users in natural language, analyzes your portfolio, evaluates your risk level, and provides personalized investment strategies.  
+> ⚠️ **Note:** This is a portfolio project.
+
+### 🚀 Features
+
+|       | Feature | Description |
+|-------|---------|-------------|
+| 💬 | Smart Chatbot | Natural language interaction powered by LangChain + ChatGroq |
+| 💰 | Portfolio Analysis | Real-time asset valuation, distribution, and returns calculation |
+| 📈 | Stock & Currency Data | Integration with Finnhub, CoinGecko, and yFinance |
+| 🧩 | AI Workflow | Dynamic tool routing powered by LangGraph |
+| 🧮 | Risk Analysis & Recommendations | Detects user risk profile and suggests suitable investment allocation |
+| 🔍 | Live Data Search | DDGS (DuckDuckGo) for up-to-date financial news |
+| 🌐 | Streamlit UI | Interactive web interface and visualizations (Plotly & Matplotlib) |
+
+### 🧩 Architecture
+
+| Technology | Responsibility |
+|------------|----------------|
+| 🌐 **Streamlit UI**  ➡️ | Graphs & User Input |
+| 🤖 **LangGraph Agent** ➡️ | State & Memory Management |
+| ⚡ **ChatGroq LLM**  ➡️ | API / Tools (Finnhub, CoinGecko, DDGS) |
+
+### 🧰 Tech Stack
+
+#### 🎨 Frontend
+- 🌐 Streamlit — Interactive UI
+- 📊 Plotly & Matplotlib — Financial visualizations
+- 🎯 HTML / CSS — UI customizations
+
+#### ⚙️ Backend
+- 🐍 Python — Core programming language
+- 📡 Finnhub API — Real-time market data
+- 💰 CoinGecko API — Cryptocurrency prices
+- 📈 yFinance — Stock market data
+- 🔗 Requests — API integration
+- 📊 Pandas & NumPy — Data processing
+
+#### 🤖 AI & Integration
+- 🧠 LangChain + Tools — LLM tool integration
+- 📊 LangGraph — Agent workflow management
+- ⚡ ChatGroq — High-speed LLM
+- 🔍 DDGS — Web-based live information retrieval
+
+### 🧑‍💻 Developer
+👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
+
+### 📫 Contact
+- LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
+- GitHub: [github.com/demirgulsen](https://github.com/demirgulsen/)  
+- Kaggle: [kaggle.com/gulsendemir](https://www.kaggle.com/gulsendemir)
 
 
-## 🧠 Hakkında
+---
+
+# TR
+## 🤖 YA-DA  - Yatırım Danışmanı Asistanı
+
+
+### 🧠 Hakkında
 
 YA-DA, modern yatırımcılar için tasarlanmış LLM tabanlı bir portföy yönetim ve yatırım danışmanlığı asistanıdır.
 Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, risk seviyenizi değerlendirir ve size özel yatırım stratejileri sunar.
 > ⚠️ **Not:** Bu bir portföy projesidir
 
 
-## 🚀 Özellikler
+### 🚀 Özellikler
 
 |       | Özellik | Açıklama |
 |-------|---------|----------|
@@ -21,7 +83,7 @@ Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, r
 | 🌐 | Streamlit UI | Etkileşimli web arayüzü ve görselleştirmeler (Plotly & Matplotlib) |
 
 
-## 🧩 Mimarisi
+### 🧩 Mimarisi
 
 | Teknoloji | Görev |
 |-----------|-------|
@@ -30,14 +92,14 @@ Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, r
 | ⚡ **ChatGroq LLM**  ➡️| API / Tools (Finnhub, CoinGecko, DDGS) |
 
 
-## 🧰 Kullanılan Teknolojiler
+### 🧰 Kullanılan Teknolojiler
 
-### 🎨 Frontend
+#### 🎨 Frontend
 - 🌐 Streamlit — Etkileşimli arayüz
 - 📊 Plotly & Matplotlib — Finansal grafikler
 - 🎯 HTML / CSS — UI özelleştirmeleri
 
-### ⚙️ Backend
+#### ⚙️ Backend
 - 🐍 Python — Ana geliştirme dili
 - 📡 Finnhub API — Gerçek zamanlı piyasa verisi
 - 💰 CoinGecko API — Kripto fiyatları
@@ -45,16 +107,16 @@ Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, r
 - 🔗 Requests — API entegrasyonu
 - 📊 Pandas & NumPy — Veri işleme
 
-### 🤖 AI & Entegrasyon
+#### 🤖 AI & Entegrasyon
 - 🧠 LangChain + Tools — LLM tool entegrasyonu
 - 📊 LangGraph — Agent akış yönetimi
 - ⚡ ChatGroq — Hızlı LLM 
 - 🔍 DDGS — Web üzerinden güncel bilgi arama
 
-## 🧑‍💻 Geliştirici
+### 🧑‍💻 Geliştirici
 👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
 
-## **📫 İletişim:**
+### **📫 İletişim:**
 - LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
 - GitHub: [github.com/demirgulsen](https://github.com/demirgulsen/)  
 - Kaggle: [kaggle.com/gulsendemir](https://www.kaggle.com/gulsendemir)  
