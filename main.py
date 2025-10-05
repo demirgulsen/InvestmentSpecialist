@@ -136,22 +136,3 @@ elif st.session_state.page == "Kişisel Yatırım Analizi":
 
 elif st.session_state.page == "YA-DA ile Sohbet Edin":
     show_chatbot_page()
-
-############################################################################
-# if 'current_context' not in st.session_state:
-#     st.session_state.current_context = {}
-
-# Durum çubukları
-# status_col1, status_col2 = st.columns(2)
-
-# session_state durumları tanımlanmalı
-# Örneğin: site, selected_restaurant, selected_product, chart ... gibi
-
-# with status_col1:
-#     if st.session_state.current_context.get("site"):
-#         st.success(f"🌐 Hisse Senedi Analizi: {st.session_state.current_context.get("site").title()}")
-#
-# with status_col2:
-#     if st.session_state.current_context.get("selected_restaurant"):
-#         st.success(f"🏪 Kişisel Yatırım Analizi: {st.session_state.current_context.get("selected_restaurant").title()}")
-#
