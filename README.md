@@ -8,7 +8,6 @@ YA-DA, modern yatırımcılar için tasarlanmış LLM tabanlı bir portföy yön
 Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, risk seviyenizi değerlendirir ve size özel yatırım stratejileri sunar.
 > ⚠️ **Not:** Bu bir portföy projesidir
 
----
 
 ## 🚀 Özellikler
 
@@ -22,7 +21,6 @@ Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, r
 | 🔍 | Güncel Veri Araması | DDGS (DuckDuckGo) ile web’den canlı finansal haber sorgulama |
 | 🌐 | Streamlit UI | Etkileşimli web arayüzü ve görselleştirmeler (Plotly & Matplotlib) |
 
----
 
 ## 🧩 Mimarisi
 Streamlit UI ──> LangGraph Agent ──> ChatGroq LLM
