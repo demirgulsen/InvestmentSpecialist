@@ -11,7 +11,7 @@ Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, r
 
 ## 🚀 Özellikler
 
-| Emoji | Özellik | Açıklama |
+|       | Özellik | Açıklama |
 |-------|---------|----------|
 | 💬 | Akıllı Chatbot | LangChain + ChatGroq destekli doğal dil etkileşimi |
 | 💰 | Portföy Analizi | Gerçek zamanlı varlık değerleme, dağılım ve getiri hesaplama |
@@ -30,6 +30,12 @@ Kullanıcılarla doğal dilde etkileşime girer, portföyünüzü analiz eder, r
 │      ▼              │    ▼                  │       ▼
 │   Grafikler &       │   State & Memory      │   API / Tools
    Kullanıcı Girişi       Yönetimi              (Finnhub, CoinGecko, DDGS)
+
+| Teknoloji | Görev |
+|-----------|-------|
+| 🌐 Streamlit UI  ──> | Grafikler & Kullanıcı Girişi |
+| 🤖 LangGraph Agent  ──> | State & Memory Yönetimi |
+| ⚡ ChatGroq LLM  ──>  | API / Tools (Finnhub, CoinGecko, DDGS) |
 
 
 ## 🧰 Kullanılan Teknolojiler
