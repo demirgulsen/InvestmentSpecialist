@@ -69,12 +69,12 @@ Additionally:
 👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
 
 ### 📫 Contact
-- Youtube: 
+- Email: alyula.coder@gmail.com | gulsendemirbm@gmail.com
 - LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
-- GitHub: [github.com/demirgulsen](https://github.com/demirgulsen/)  
-- Kaggle: [kaggle.com/gulsendemir](https://www.kaggle.com/gulsendemir)
 
-
+### Project Demo
+- Youtube:  [https://youtu.be/Q3mE3O5fX0w]
+  
 ---
 
 # TR
@@ -150,10 +150,12 @@ Ek olarak:
 
 
 ### 🧑‍💻 Geliştirici
-👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
+👋 **Gülşen Demir** — Data Scientist & AI Developer
 
 ### **📫 İletişim:**
-- Youtube: 
+- Email: alyula.coder@gmail.com | gulsendemirbm@gmail.com
 - LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
-- GitHub: [github.com/demirgulsen](https://github.com/demirgulsen/)  
-- Kaggle: [kaggle.com/gulsendemir](https://www.kaggle.com/gulsendemir)  
+ 
+
+### Project Demo Videsu
+- Youtube:  [https://youtu.be/Q3mE3O5fX0w]
