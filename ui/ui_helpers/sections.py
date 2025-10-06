@@ -53,7 +53,7 @@ def render_contribute_section(title, icon="🤝"):
         - 🐛 Bug raporları ve önerilerinizi paylaşın
         - 💡 Yeni özellik fikirlerinizi sunun  
         - 🔧 Kod katkılarınızla projeyi geliştirin
-        - 📖 Dokümantasyonu iyileştirmemize yardım edin
+        - 📖 Dokümantasyonu iyileştirmeme yardım edin
         """)
 
 def render_feature_card(feature: dict):

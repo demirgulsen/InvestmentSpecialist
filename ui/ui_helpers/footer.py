@@ -11,7 +11,7 @@ def footer_content() -> None:
                 Modern teknolojilerle geliştirilmiş, kullanıcı dostu finans aracı
             </p>
             <p style="color: #999; font-size: 0.9rem; margin-top: 1rem;">
-                Geliştirici: © 2025 Alyula.coder - Gülşen Demir              
+                Geliştirici: © 2025 alpyula.coder - Gülşen Demir              
             </p>    
         </div>
         """, unsafe_allow_html=True)
