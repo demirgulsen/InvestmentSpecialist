@@ -73,6 +73,7 @@ Additionally:
 - LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
 
 ### Project Demo
+- Streamlit-App : [https://investmentspecialist-portfoliproject.streamlit.app/]
 - Youtube:  [https://youtu.be/Q3mE3O5fX0w]
   
 ---
@@ -158,4 +159,5 @@ Ek olarak:
  
 
 ### Project Demo Videsu
+- Streamlit-App : [https://investmentspecialist-portfoliproject.streamlit.app/]
 - Youtube:  [https://youtu.be/Q3mE3O5fX0w]
