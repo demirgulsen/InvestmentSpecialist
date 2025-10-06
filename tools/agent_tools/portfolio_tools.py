@@ -73,27 +73,27 @@ def get_investment_advice(risk_description: str = "orta") -> str:
 
     Returns: Currency conversion data (schema: CURRENCY_FORMAT)
     +
-    📊 **MEVCUT PORTFÖY DAĞILIMI:**
+    📊 MEVCUT PORTFÖY DAĞILIMI:
     [Portfolio grafik varsa AYNEN göster]
 
-    💼 **PORTFÖY ANALİZİ:**
+    💼 PORTFÖY ANALİZİ:
     - Mevcut varlık dağılımı değerlendirmesi
     - Risk profili uygunluğu analizi
     - Eksik olan varlık sınıfları tespiti
 
-    🎯 **ÖNERİLEN DAĞILIM:**
+    🎯 ÖNERİLEN DAĞILIM:
     - Hedef portföy yapısı önerisi
     - Önerilen varlık oranları
     - Alternatif yatırım araçları
 
-    📈 **STRATEJİK ÖNERİLER:**
+    📈 STRATEJİK ÖNERİLER:
     - Kısa vadeli aksiyonlar (3-6 ay)
 
-    ⚖️ **RİSK DEĞERLENDİRMESİ:**
+    ⚖️ RİSK DEĞERLENDİRMESİ:
     - {risk_description} profili uygunluğu
     - Potansiyel getiri beklentileri
 
-    ⚠️ **YASAL UYARI:**
+    ⚠️ YASAL UYARI:
     Bu öneriler mevcut portföyünüz ve risk toleransınız dikkate alınarak hazırlanmıştır.
     Bu bilgiler profesyonel yatırım tavsiyesi değildir.
     """

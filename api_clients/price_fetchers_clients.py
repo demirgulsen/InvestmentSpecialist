@@ -29,7 +29,7 @@ def get_currency_price(base="USD", target="TRY"):
         time.sleep(1)
 
         url = f"https://v6.exchangerate-api.com/v6/{exchange_rate_api_key}/latest/{base}"
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=5)
         response.raise_for_status()
         data = response.json()
 
@@ -61,11 +61,8 @@ def get_crypto_price(symbol: str):
         - Örn: "BTC" → "bitcoin", "ETH" → "ethereum".
     """
     try:
-        # Rate limit için bekleme
-        time.sleep(1)
-
         url = f"https://api.coingecko.com/api/v3/simple/price?ids={symbol}&vs_currencies=usd,try"
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=5)
         response.raise_for_status()
         data = response.json()
         if symbol in data:
@@ -79,7 +76,7 @@ def get_crypto_price(symbol: str):
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 429:
             logger.error("❌ Kripto Rate limit aşıldı, 40 saniye bekleniyor...")
-            time.sleep(40)
+            time.sleep(30)
             return 0.0, 0.0
         else:
             logger.error(f"❌ Kripto HTTP hatası: {e}")
@@ -102,9 +99,6 @@ def get_stock_price(ticker):
         float: Kapanış fiyatı
     """
     try:
-        # Rate limit için bekleme
-        time.sleep(1)
-
         data = yf.Ticker(ticker)
         hist = data.history(period="1d")
 
@@ -137,10 +131,10 @@ def get_gold_price(vs="usd"):
     """
     try:
         # Rate limit için bekleme
-        time.sleep(1)
+        time.sleep(0.5)
 
         url = "https://api.coingecko.com/api/v3/simple/price?ids=tether-gold&vs_currencies=usd,try"
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=5)
         response.raise_for_status()
         data = response.json()
 
@@ -160,7 +154,7 @@ def get_gold_price(vs="usd"):
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 429:
             logger.error("❌ Rate limit aşıldı, 40 saniye bekleniyor...")
-            time.sleep(40)
+            time.sleep(30)
             return 0.0, 0.0
         else:
             logger.error(f"❌ HTTP hatası: {e}")

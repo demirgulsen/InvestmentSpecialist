@@ -71,7 +71,7 @@ def agent_node(state: AgentState) -> AgentState:
 
         # Mesajları system prompt' a ekler
         if not any(isinstance(msg, SystemMessage) for msg in messages):
-            messages.insert(0, SystemMessage(content=SystemPrompt.MAIN_SYSTEM_PROMPT))
+            messages = [SystemMessage(content=SystemPrompt.MAIN_SYSTEM_PROMPT)] + messages
 
         # Mesajları kırpar
         trimmed_messages = trim_messages(messages)
@@ -84,8 +84,7 @@ def agent_node(state: AgentState) -> AgentState:
 
         # Yeni state oluşturur ve döndürür
         return {
-            **state,
-            "messages": trimmed_messages  + [response],
+            "messages": [response],
             "user_context": user_context,
             "portfolio_df_info": portfolio_df_info,
         }

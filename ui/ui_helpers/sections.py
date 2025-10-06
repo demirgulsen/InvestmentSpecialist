@@ -158,4 +158,3 @@ def render_technologies_section():
             ("🔍", "DuckDuckGo Search (DDGS)", "Web’den güncel haber ve finansal veri sorgulama")
         ]
         render_tech_stack("🤖", " Yapay Zeka & Entegrasyonlar", ai_stack)
-

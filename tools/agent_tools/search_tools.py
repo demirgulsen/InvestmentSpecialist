@@ -10,7 +10,7 @@ def search_duckduckgo(query: str) -> str:
 
     Returns: Raw conversion data (use SEARCH_FORMAT)
     +
-    🔍 **ARAMA SONUÇLARI:**
+    🔍 ARAMA SONUÇLARI:
     - İlgili başlıklar ve özetler
     - Güncel bilgi kaynakları
     - Web sitesi linkleri

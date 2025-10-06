@@ -2,11 +2,9 @@ import logging
 from langchain_core.tools import tool
 from api_clients.currency_clients import convert_ids_to_currency_with_exchange
 from services.stock_services import format_stock_data_for_agent
-# from ai_agent.portfolio.portfolio_context_manager import PortfolioContext
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
 
 @tool
 def convert_currency_for_exchange(amount: float, from_currency: str, to_currency: str) -> str:
@@ -19,7 +17,7 @@ def convert_currency_for_exchange(amount: float, from_currency: str, to_currency
 
     Return: Currency conversion data (schema: CURRENCY_FORMAT)
     +
-    💵 **GÜNCEL DÖVİZ KURU**
+    💵 GÜNCEL DÖVİZ KURU
     🇺🇸 [amount] [from_currency] = [result] [to_currency] 🇹🇷
     +
     📈 **KUR ANALİZİ:** :
@@ -58,7 +56,7 @@ def get_stock_data(symbol: str) -> str:
 
     Returns: Raw conversion data (use STOCK_FORMAT)
     +
-    📈 **HISSE ANALİZİ**
+    📈 HISSE ANALİZİ
     - Güncel fiyat bilgileri
     - Değişim oranları
     - Piyasa performansı

@@ -42,7 +42,7 @@ def convert_ids_to_currency_with_exchange(amount: float, ids, vs_currencies) -> 
 
     try:
         url = f"https://v6.exchangerate-api.com/v6/{exchange_rate_api_key}/pair/{ids.upper()}/{vs_currencies.upper()}/{amount}"
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=5)
 
         logger.info(f"Status Code={response.status_code}")
         if response.status_code != 200:
@@ -124,10 +124,10 @@ def fetch_day7_currency_data(from_currency, to_currency):
     try:
         # Bitcoin'in 7 günlük fiyatını hem kaynak hem hedef para biriminde al
         chart_url = f"https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency={from_currency.lower()}&days=7"
-        btc_from_res = requests.get(chart_url, timeout=10).json()
+        btc_from_res = requests.get(chart_url, timeout=5).json()
 
         chart_url = f"https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency={to_currency.lower()}&days=7"
-        btc_to_res = requests.get(chart_url, timeout=10).json()
+        btc_to_res = requests.get(chart_url, timeout=5).json()
 
         if "prices" in btc_from_res and "prices" in btc_to_res:
             df_from = pd.DataFrame(btc_from_res["prices"], columns=["timestamp", "btc_from_price"])
@@ -167,7 +167,7 @@ def get_available_currencies_core() -> list:
     """
     try:
         url = f"https://v6.exchangerate-api.com/v6/{exchange_rate_api_key}/codes"
-        res = requests.get(url, timeout=10)
+        res = requests.get(url, timeout=5)
 
         if res.status_code == 429:
             logger.info("Exchangerate API limiti hatası (429). Varsayılan liste döndürülüyor.")

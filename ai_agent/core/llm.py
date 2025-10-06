@@ -31,7 +31,7 @@ def get_llm_instance():
     return create_llm().bind_tools(tools)
 
 
-def create_llm(model: str = "openai/gpt-oss-120b", temperature: float = 0.2, max_tokens: int = 1500):
+def create_llm(model: str = "openai/gpt-oss-20b", temperature: float = 0.2, max_tokens: int = 1500):
     """ ChatGroq LLM örneğini oluşturur.
 
     İşleyiş:
@@ -72,10 +72,8 @@ def create_llm(model: str = "openai/gpt-oss-120b", temperature: float = 0.2, max
 # gemma2-9b-it,
 # llama-3.3-70b-versatile,
 # llama-3.1-8b-instant
-# meta-llama/llama-guard-4-12b,
 # openai/gpt-oss-120b,
 # openai/gpt-oss-20b,
-# whisper-large-v3
 
 # NOT: Langchain Chatgroq yapısını kullandığım için groq hesabından desteklenen modellerden bazıları.
 # Sizde kendi hesabınızdan desteklenen herhangi bir model deneyebilirsiniz ki bunlar da işinizi görecektir.

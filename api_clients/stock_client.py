@@ -23,7 +23,7 @@ def get_stock_data_core(ticker: str) -> dict:
             return {"error": "API anahtarı bulunamadı."}
 
         url = f"https://finnhub.io/api/v1/quote?symbol={ticker}&token={finn_api_key}"
-        resource = requests.get(url, timeout=10)
+        resource = requests.get(url, timeout=5)
         logger.info(f"Status Code: {resource.status_code}")  # Debug için
 
         if resource.status_code == 429:

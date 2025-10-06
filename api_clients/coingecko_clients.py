@@ -14,9 +14,8 @@ def get_all_coins():
         list: Tüm coin listesi [{"id": "bitcoin", "name": "Bitcoin", ...}]
     """
     try:
-        time.sleep(1)
         url = "https://api.coingecko.com/api/v3/coins/list"
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=5)
         response.raise_for_status()
         return response.json()
 
@@ -31,7 +30,7 @@ def get_all_coins_cached():
     Returns:
         list: Kripto para adlarını ve sembollerini içeren liste.
     """
-    time.sleep(1)
+    time.sleep(0.5)
     return get_all_coins()
 
 
