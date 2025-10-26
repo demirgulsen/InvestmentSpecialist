@@ -65,17 +65,6 @@ Additionally:
 - You can also experiment with other supported models from your own account; most will work fine.
 - Alternatively, HuggingFace Groq models can be used by modifying the llm function accordingly.
 
-### 🧑‍💻 Developer
-👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
-
-### 📫 Contact
-- Email: alyula.coder@gmail.com | gulsendemirbm@gmail.com
-- LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
-
-### Project Demo
-- Streamlit-App : [https://investmentspecialist-portfoliproject.streamlit.app/]
-- Youtube:  [https://youtu.be/Q3mE3O5fX0w]
-  
 ---
 
 # TR
@@ -150,14 +139,13 @@ Ek olarak:
 - Alternatif olarak, HuggingFace üzerindeki Groq modellerini llm fonksiyonunda değişiklik yaparak kullanabilirsiniz.
 
 
-### 🧑‍💻 Geliştirici
-👋 **Gülşen Demir** — Data Scientist & AI Developer
+### 🧑‍💻 Developer ( Geliştirici )
+👋 **Gülşen Demir** — Jr. Data Scientist & AI Developer
 
-### **📫 İletişim:**
+### 📫 Contact ( İletişim )
 - Email: alyula.coder@gmail.com | gulsendemirbm@gmail.com
 - LinkedIn: [linkedin.com/in/gulsendemir](https://www.linkedin.com/in/gulsendemir/)  
- 
 
-### Project Demo Videsu
+### ▶️ Project Demo and Video Presentation ( Projenin Demo ve Video Sunumu )
 - Streamlit-App : [https://investmentspecialist-portfoliproject.streamlit.app/]
-- Youtube:  [https://youtu.be/Q3mE3O5fX0w]
+- Youtube:  [https://youtu.be/6hUPNX1vKcQ]
